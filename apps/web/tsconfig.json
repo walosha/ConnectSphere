@@ -1,0 +1,17 @@
+{
+   "extends": "@connect-sphere/tsconfig/react.json",
+   "compilerOptions": {
+      "baseUrl": "src",
+      "outDir": "dist",
+      "composite": false
+   },
+   "include": ["src", "cypress", "vite.config.ts", "vitest.setup.ts"],
+   "references": [
+      {
+         "path": "../server"
+      },
+      {
+         "path": "../../@connect-sphere/ui/tsconfig.json"
+      }
+   ]
+}

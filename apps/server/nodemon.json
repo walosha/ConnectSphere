@@ -1,0 +1,10 @@
+{
+   "ext": "ts,json",
+   "execMap": {
+      "ts": "node --inspect --require ts-node/register"
+   },
+   "watch": [
+      "./src",
+      "../../@connect-sphere/config/dist/index.js"
+   ]
+}

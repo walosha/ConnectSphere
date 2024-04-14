@@ -1,0 +1,3 @@
+packages:
+   - '@connect-sphere/*'
+   - 'apps/*'

@@ -1,0 +1,17 @@
+{
+   "extends": "@connect-sphere/tsconfig/node.json",
+   "compilerOptions": {
+      "baseUrl": "src",
+      "outDir": "dist"
+   },
+   "include": [
+      "src",
+      "vite.config.ts",
+      "vitest.setup.ts"
+   ],
+   "references": [
+      {
+         "path": "../../@connect-sphere/config/tsconfig.json"
+      }
+   ]
+}
